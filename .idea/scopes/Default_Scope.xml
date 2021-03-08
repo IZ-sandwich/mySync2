@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Default Scope" pattern="file:dataManager.py||file:main.py||file:ProjectInfo.py||file:syncManager.py" />
+</component>
