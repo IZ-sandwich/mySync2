@@ -15,6 +15,6 @@ class SyncThread(threading.Thread):
         self.remote_info = remote_info
 
     def run(self):
-        print(f'starting {self.project_info.name}\n')
+        print(f'starting sync for {self.project_info.name}\n')
         sync_project(self.project_info, self.remote_info)
-        print(f'exiting {self.project_info.name}\n')
+        print(f'exiting  sync for {self.project_info.name}\n')
